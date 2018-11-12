@@ -1,0 +1,70 @@
+# Each config specifies multiple fields to be extracted from the csv.
+# Each field must specify both bins and domain.
+# Fields may optionally specify an value_map.
+#
+# bins - Number of bins, or an explicit division of bins given as
+#        a list of bin boundaries. This is given as an argument to
+#        numpy.histogramdd.
+#
+# domain - The overall domain for the field, provided either as
+#          a list [lower bound, upper bound] or the string 'active',
+#          which indicates the active domain should be used. If a
+#          domain isn't provided the active domain will be used.
+#
+# value_map (optional) - A dictionary that maps non-numerical
+#                       field values to a number so that they can be
+#                       properly added to a histogram.
+Survived: 
+    type: discrete
+    optional: True
+    bins: 2
+    domain: [0,1]
+Pclass: 
+    type: discrete
+    bins: 3
+    domain: [1,3]
+Sex: 
+    type: categorical
+    bins: 2
+    value_map:
+        female: 0
+        male: 1
+Age: 
+    type: discrete
+    optional: True
+    bins: 90
+    domain: [0, 89]
+SibSp:
+    type: discrete
+    bins: 9
+    domain: [0,8]
+Parch:
+    type: discrete
+    bins: 7
+    domain: [0,6]
+Fare:
+    type: discrete
+    bins: 100
+    domain: [0, 550]
+Embarked:
+    type: categorical
+    bins: 3
+    domain: [0,2]
+    value_map:
+        C: 0
+        Q: 1
+        S: 2
+Cabin:
+    type: categorical
+    optional: True
+    bins: 8
+    domain: [0,7]
+    value_map:
+        A: 0
+        B: 1
+        C: 2
+        D: 3
+        E: 4
+        F: 5
+        G: 6
+        T: 7

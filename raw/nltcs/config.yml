@@ -1,0 +1,64 @@
+bathing:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+cooking:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+dressing:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+eating:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+getting about outside:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+getting around inside:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+getting in/out of bed:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+grocery shopping:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+heavy house work:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+laundry:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+light house work:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+managing money:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+taking medicine:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+telephoning:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+traveling:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+using toilet:
+  bins: 2
+  domain: [0, 1]
+  type: discrete

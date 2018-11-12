@@ -1,0 +1,628 @@
+annual-salary:
+    type: discrete
+    bins: 100
+    optional: True
+    domain: [0, 500000]
+pay-rate:
+    type: categorical
+    bins: 3
+    domain: [0,2]
+    value_map:
+        A: 0
+        D: 1
+        H: 2
+system:
+    type: categorical
+    bins: 3
+    domain: [0,2]
+    value_map:
+        CT: 0
+        RG: 1
+        UM: 2
+regular-earnings:
+    type: discrete
+    bins: 100
+    optional: True
+    domain: [0,500000]
+overtime-earning:
+    type: discrete
+    optional: True
+    bins: 100
+    domain: [0,500000]
+other-earnings:
+    type: discrete
+    optional: True
+    bins: 100
+    domain: [0,500000]
+ytd-gross:
+    type: discrete
+    optional: True
+    bins: 100
+    domain: [0,500000]
+organization-name:
+    type: categorical
+    optional: True
+    bins: 75
+    domain: [0,74]
+    value_map:
+        BALTO CITY COMMUNITY COLLEGE: 0
+        BD-MD TCHR&ST EMP SUPP RET PLN: 1
+        BOARD OF PUBLIC WORKS: 2
+        CANAL PLACE PRESERV & DEV AUTH: 3
+        COLLEGE SAVINGS PLANS: 4
+        COMPTROLLER OF MARYLAND: 5
+        DEP OF HEALTH & MENTAL HYGIENE: 6
+        DEPARTMENT OF AGRICULTURE: 7
+        DEPARTMENT OF GENERAL SERVICES: 8
+        DEPARTMENT OF HUMAN RESOURCES: 9
+        DEPARTMENT OF STATE POLICE: 10
+        DEPARTMENT OF THE ENVIRONMENT: 11
+        DEPARTMENT OF TRANSPORTATION: 12
+        DEPARTMNT OF NATURAL RESOURCES: 13
+        DEPT BUSINESS & ECONOMIC DEV: 14
+        DEPT HOUSING & COMMUNITY DEV: 15
+        DEPT HOUSING AND COMMUNITY DEV: 16
+        DEPT OF AGRICULTURE: 17
+        DEPT OF ASSESSMENTS & TAXATION: 18
+        DEPT OF BUDGET AND MANAGEMENT: 19
+        DEPT OF ENVIRONMENT: 20
+        DEPT OF INFORMATION TECH: 21
+        DEPT OF JUVENILE SERVICES: 22
+        DEPT OF LABOR  LICENSING & REG: 23
+        DEPT OF NATURAL RESOURCES: 24
+        DEPT OF NATURAL RESOURES: 25
+        DEPT OF PUB SAFETY & COR SERV: 26
+        DEPT OF PUB SAFETY & COR SERVS: 27
+        DEPT OF THE ENVIRONMENT: 28
+        EXECUTIVE DEPARTMENT: 29
+        EXECUTIVE DEPT: 30
+        GENERAL ASSEMBLY OF MARYLAND: 31
+        GOVERNOR'S OFFICE FOR CHILDREN: 32
+        HISTORIC ST. MARY'S CITY COMM: 33
+        JUDICIARY: 34
+        MARYLAND HEALTH INSURANCE PLAN: 35
+        MARYLAND HIGHER EDUCATION COMM: 36
+        MARYLAND INSURANCE ADMIN: 37
+        MARYLAND OFFICE OF PLANNING: 38
+        MARYLAND SCHOOL FOR THE DEAF: 39
+        MARYLAND TAX COURT: 40
+        MD AFRICAN AMERICAN MUSEUM: 41
+        MD COMMISSION ON CIVIL RIGHTS: 42
+        MD DEPT OF VETERANS AFFAIRS: 43
+        MD ENERGY ADMINISTRATION: 44
+        MD FOOD CENTER AUTHORITY: 45
+        MD HEALTH BENEFIT EXCHANGE: 46
+        MD INS FOR EMERG MED SERV SYS: 47
+        MD PUBLIC BROADCASTING COM: 48
+        MD ST BRD OF CONTRACT APPEALS: 49
+        MD STADIUM AUTHORITY: 50
+        MD UNINSURED EMPLOYERS' FUND: 51
+        MILITARY DEPARTMENT: 52
+        MORGAN STATE UNIVERSITY: 53
+        OFFICE OF ADMNSTRTV HEARINGS: 54
+        OFFICE OF PEOPLE'S COUNSEL: 55
+        OFFICE OF STATE PROSECUTOR: 56
+        OFFICE OF THE ATTORNEY GENERAL: 57
+        OFFICE OF THE PUBLIC DEFENDER: 58
+        OFFICE ON AGING: 59
+        PROPERTY TAX ASSMTS APPEAL BDS: 60
+        PUBLIC SERVICE COMMISSION: 61
+        REGISTER OF WILLS: 62
+        SECRETARY OF STATE: 63
+        ST ADM BOARD OF ELECTION LAWS: 64
+        ST. MARY'S COLLEGE OF MARYLAND: 65
+        STATE ARCHIVES: 66
+        STATE DEPARTMENT OF EDUCATION: 67
+        STATE LOTTERY AGENCY: 68
+        STATE RETIREMENT AGENCY: 69
+        STATE TREASURER: 70
+        STATE UNIVERSITIES & COLLEGES: 71
+        SUBSEQUENT INJURY FUND: 72
+        UNIVERSITY OF MARYLAND: 73
+        WORKERS' COMPENSATION COM: 74
+first-name:
+    type: categorical
+    optional: True
+    bins: 500
+    domain: [0,499]
+    value_map:
+        AARON: 0
+        ABIGAIL: 1
+        ADAM: 2
+        ADRIAN: 3
+        ADRIENNE: 4
+        ALAN: 5
+        ALBERT: 6
+        ALEX: 7
+        ALEXANDER: 8
+        ALEXANDRA: 9
+        ALEXIS: 10
+        ALFRED: 11
+        ALICE: 12
+        ALICIA: 13
+        ALISON: 14
+        ALLEN: 15
+        ALLISON: 16
+        ALVIN: 17
+        ALYSSA: 18
+        AMANDA: 19
+        AMBER: 20
+        AMY: 21
+        ANA: 22
+        ANDRE: 23
+        ANDREA: 24
+        ANDREW: 25
+        ANGEL: 26
+        ANGELA: 27
+        ANITA: 28
+        ANN: 29
+        ANNA: 30
+        ANNE: 31
+        ANNETTE: 32
+        ANNIE: 33
+        ANTHONY: 34
+        ANTOINETTE: 35
+        ANTONIO: 36
+        APRIL: 37
+        ARLENE: 38
+        ARNOLD: 39
+        ARTHUR: 40
+        ASHLEY: 41
+        AUDREY: 42
+        BARBARA: 43
+        BARRY: 44
+        BENJAMIN: 45
+        BERNADETTE: 46
+        BERNARD: 47
+        BETH: 48
+        BETHANY: 49
+        BETTY: 50
+        BEVERLY: 51
+        BONITA: 52
+        BONNIE: 53
+        BRADLEY: 54
+        BRANDI: 55
+        BRANDON: 56
+        BRENDA: 57
+        BRENT: 58
+        BRETT: 59
+        BRIAN: 60
+        BRIDGET: 61
+        BRITTANY: 62
+        BROOKE: 63
+        BRUCE: 64
+        BRYAN: 65
+        CAITLIN: 66
+        CALVIN: 67
+        CANDACE: 68
+        CANDICE: 69
+        CARL: 70
+        CARLA: 71
+        CARLOS: 72
+        CARMEN: 73
+        CAROL: 74
+        CAROLE: 75
+        CAROLINE: 76
+        CAROLYN: 77
+        CARRIE: 78
+        CASEY: 79
+        CASSANDRA: 80
+        CATHERINE: 81
+        CATHY: 82
+        CECILIA: 83
+        CHAD: 84
+        CHARLENE: 85
+        CHARLES: 86
+        CHARLOTTE: 87
+        CHELSEA: 88
+        CHERYL: 89
+        CHRIS: 90
+        CHRISTIAN: 91
+        CHRISTINA: 92
+        CHRISTINE: 93
+        CHRISTOPHER: 94
+        CHRISTY: 95
+        CINDY: 96
+        CLAIRE: 97
+        CLARENCE: 98
+        CLAUDIA: 99
+        CODY: 100
+        COLIN: 101
+        COLLEEN: 102
+        CONNIE: 103
+        CONSTANCE: 104
+        COREY: 105
+        CORY: 106
+        COURTNEY: 107
+        CRAIG: 108
+        CRYSTAL: 109
+        CURTIS: 110
+        CYNTHIA: 111
+        DALE: 112
+        DAMON: 113
+        DANA: 114
+        DANIEL: 115
+        DANIELLE: 116
+        DANNY: 117
+        DARLENE: 118
+        DARRELL: 119
+        DARREN: 120
+        DARRYL: 121
+        DARYL: 122
+        DAVID: 123
+        DAWN: 124
+        DEAN: 125
+        DEANNA: 126
+        DEBORAH: 127
+        DEBRA: 128
+        DELORES: 129
+        DENISE: 130
+        DENNIS: 131
+        DEREK: 132
+        DERRICK: 133
+        DEVIN: 134
+        DIANA: 135
+        DIANE: 136
+        DIANNE: 137
+        DIONNE: 138
+        DOLORES: 139
+        DOMINIQUE: 140
+        DONALD: 141
+        DONNA: 142
+        DORIS: 143
+        DOROTHY: 144
+        DOUGLAS: 145
+        DUANE: 146
+        DUSTIN: 147
+        DWAYNE: 148
+        EARL: 149
+        EBONY: 150
+        EDNA: 151
+        EDWARD: 152
+        EDWIN: 153
+        EILEEN: 154
+        ELAINE: 155
+        ELIZABETH: 156
+        ELLEN: 157
+        EMILY: 158
+        EMMA: 159
+        EMMANUEL: 160
+        ERIC: 161
+        ERICA: 162
+        ERIK: 163
+        ERIKA: 164
+        ERIN: 165
+        ERNEST: 166
+        ESTHER: 167
+        EUGENE: 168
+        EVA: 169
+        EVAN: 170
+        EVELYN: 171
+        FAYE: 172
+        FELICIA: 173
+        FRANCES: 174
+        FRANCIS: 175
+        FRANK: 176
+        FRANKLIN: 177
+        FRED: 178
+        FREDERICK: 179
+        GABRIEL: 180
+        GAIL: 181
+        GARY: 182
+        GEORGE: 183
+        GERALD: 184
+        GERALDINE: 185
+        GERARD: 186
+        GINA: 187
+        GLENN: 188
+        GLORIA: 189
+        GRACE: 190
+        GREGORY: 191
+        GUY: 192
+        GWENDOLYN: 193
+        HANNAH: 194
+        HAROLD: 195
+        HARRY: 196
+        HEATHER: 197
+        HEIDI: 198
+        HELEN: 199
+        HENRY: 200
+        HERBERT: 201
+        HOLLY: 202
+        HOWARD: 203
+        IAN: 204
+        IRENE: 205
+        IRIS: 206
+        ISAAC: 207
+        JACK: 208
+        JACOB: 209
+        JACQUELINE: 210
+        JACQUELYN: 211
+        JAIME: 212
+        JAMES: 213
+        JAMIE: 214
+        JANE: 215
+        JANET: 216
+        JANICE: 217
+        JARED: 218
+        JASMINE: 219
+        JASON: 220
+        JAY: 221
+        JEAN: 222
+        JEANETTE: 223
+        JEANNE: 224
+        JEFFERY: 225
+        JEFFREY: 226
+        JENNA: 227
+        JENNIFER: 228
+        JENNY: 229
+        JEREMY: 230
+        JEROME: 231
+        JERRY: 232
+        JESSE: 233
+        JESSICA: 234
+        JILL: 235
+        JOAN: 236
+        JOANN: 237
+        JOANNA: 238
+        JOANNE: 239
+        JOEL: 240
+        JOHN: 241
+        JON: 242
+        JONATHAN: 243
+        JORDAN: 244
+        JOSE: 245
+        JOSEPH: 246
+        JOSEPHINE: 247
+        JOSHUA: 248
+        JOY: 249
+        JOYCE: 250
+        JUAN: 251
+        JUANITA: 252
+        JUDITH: 253
+        JUDY: 254
+        JULIA: 255
+        JULIE: 256
+        JUNE: 257
+        JUSTIN: 258
+        KARA: 259
+        KAREN: 260
+        KARL: 261
+        KARLA: 262
+        KATHERINE: 263
+        KATHLEEN: 264
+        KATHRYN: 265
+        KATHY: 266
+        KATIE: 267
+        KATRINA: 268
+        KEISHA: 269
+        KEITH: 270
+        KELLI: 271
+        KELLY: 272
+        KELSEY: 273
+        KENDRA: 274
+        KENNETH: 275
+        KERRY: 276
+        KEVIN: 277
+        KIM: 278
+        KIMBERLY: 279
+        KIRK: 280
+        KRISTA: 281
+        KRISTEN: 282
+        KRISTIN: 283
+        KRISTINA: 284
+        KRYSTAL: 285
+        KYLE: 286
+        LARRY: 287
+        LATONYA: 288
+        LATOYA: 289
+        LAURA: 290
+        LAUREN: 291
+        LAURIE: 292
+        LAWRENCE: 293
+        LEAH: 294
+        LEE: 295
+        LEON: 296
+        LEONARD: 297
+        LEROY: 298
+        LESLIE: 299
+        LEWIS: 300
+        LILLIAN: 301
+        LINDA: 302
+        LINDSAY: 303
+        LINDSEY: 304
+        LISA: 305
+        LOIS: 306
+        LORETTA: 307
+        LORI: 308
+        LORRAINE: 309
+        LOUIS: 310
+        LOUISE: 311
+        LUKE: 312
+        LYDIA: 313
+        LYNN: 314
+        LYNNE: 315
+        MARC: 316
+        MARCIA: 317
+        MARCUS: 318
+        MARGARET: 319
+        MARIA: 320
+        MARIAN: 321
+        MARIE: 322
+        MARILYN: 323
+        MARION: 324
+        MARJORIE: 325
+        MARK: 326
+        MARLENE: 327
+        MARSHA: 328
+        MARTHA: 329
+        MARTIN: 330
+        MARVIN: 331
+        MARY: 332
+        MATTHEW: 333
+        MAUREEN: 334
+        MAURICE: 335
+        MEGAN: 336
+        MEGHAN: 337
+        MELANIE: 338
+        MELINDA: 339
+        MELISSA: 340
+        MELODY: 341
+        MELVIN: 342
+        MEREDITH: 343
+        MICHAEL: 344
+        MICHELE: 345
+        MICHELLE: 346
+        MILDRED: 347
+        MIRIAM: 348
+        MOLLY: 349
+        MONICA: 350
+        MONIQUE: 351
+        MORGAN: 352
+        NANCY: 353
+        NAOMI: 354
+        NATALIE: 355
+        NATASHA: 356
+        NATHAN: 357
+        NATHANIEL: 358
+        NEIL: 359
+        NELSON: 360
+        NICHOLAS: 361
+        NICOLE: 362
+        NINA: 363
+        NORMA: 364
+        NORMAN: 365
+        OLIVIA: 366
+        PAMELA: 367
+        PATRICE: 368
+        PATRICIA: 369
+        PATRICK: 370
+        PAUL: 371
+        PAULA: 372
+        PAULETTE: 373
+        PEGGY: 374
+        PETER: 375
+        PHILIP: 376
+        PHILLIP: 377
+        PHYLLIS: 378
+        PRISCILLA: 379
+        RACHEL: 380
+        RALPH: 381
+        RANDALL: 382
+        RANDOLPH: 383
+        RANDY: 384
+        RAYMOND: 385
+        REBECCA: 386
+        REGINA: 387
+        REGINALD: 388
+        RENEE: 389
+        RHONDA: 390
+        RICHARD: 391
+        RICKY: 392
+        RITA: 393
+        ROBERT: 394
+        ROBERTA: 395
+        ROBIN: 396
+        ROBYN: 397
+        ROCHELLE: 398
+        RODNEY: 399
+        ROGER: 400
+        ROLAND: 401
+        RONALD: 402
+        RONNIE: 403
+        ROSA: 404
+        ROSALIND: 405
+        ROSE: 406
+        ROSEMARY: 407
+        ROXANNE: 408
+        ROY: 409
+        RUSSELL: 410
+        RUTH: 411
+        RYAN: 412
+        SABRINA: 413
+        SALLY: 414
+        SAMANTHA: 415
+        SAMUEL: 416
+        SANDRA: 417
+        SARA: 418
+        SARAH: 419
+        SCOTT: 420
+        SEAN: 421
+        SETH: 422
+        SHANE: 423
+        SHANNON: 424
+        SHARON: 425
+        SHAWN: 426
+        SHEILA: 427
+        SHELBY: 428
+        SHELLEY: 429
+        SHELLY: 430
+        SHERRI: 431
+        SHERRY: 432
+        SHERYL: 433
+        SHIRLEY: 434
+        SONIA: 435
+        SONYA: 436
+        STACEY: 437
+        STACY: 438
+        STANLEY: 439
+        STEPHANIE: 440
+        STEPHEN: 441
+        STEVE: 442
+        STEVEN: 443
+        STUART: 444
+        SUSAN: 445
+        SUZANNE: 446
+        SYLVIA: 447
+        TAMARA: 448
+        TAMMY: 449
+        TANYA: 450
+        TARA: 451
+        TAYLOR: 452
+        TERESA: 453
+        TERRENCE: 454
+        TERRI: 455
+        TERRY: 456
+        THEODORE: 457
+        THERESA: 458
+        THOMAS: 459
+        TIA: 460
+        TIFFANY: 461
+        TIMOTHY: 462
+        TINA: 463
+        TODD: 464
+        TONI: 465
+        TONY: 466
+        TONYA: 467
+        TRACEY: 468
+        TRACY: 469
+        TRAVIS: 470
+        TRINA: 471
+        TROY: 472
+        TYLER: 473
+        TYRONE: 474
+        VALERIE: 475
+        VANESSA: 476
+        VERA: 477
+        VERNON: 478
+        VERONICA: 479
+        VICKI: 480
+        VICKIE: 481
+        VICTOR: 482
+        VICTORIA: 483
+        VINCENT: 484
+        VIRGINIA: 485
+        VIVIAN: 486
+        WALTER: 487
+        WANDA: 488
+        WARREN: 489
+        WAYNE: 490
+        WENDY: 491
+        WESLEY: 492
+        WHITNEY: 493
+        WILLIAM: 494
+        WILLIE: 495
+        YOLANDA: 496
+        YVETTE: 497
+        YVONNE: 498
+        ZACHARY: 499

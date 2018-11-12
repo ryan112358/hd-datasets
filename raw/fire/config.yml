@@ -1,0 +1,133 @@
+ALS Unit:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+Address:
+  bins: 17704
+  domain: [0, 17703]
+  type: discrete
+Available DtTm:
+  bins: 100
+  domain: [1451603253, 1483316817]
+  optional: true
+  type: discrete
+Battalion:
+  bins: 11
+  domain: [0, 10]
+  type: discrete
+Box:
+  bins: 2089
+  domain: [0, 2088]
+  type: discrete
+Call Date:
+  bins: 100
+  domain: [955490400, 1539122400]
+  type: discrete
+Call Final Disposition:
+  bins: 15
+  domain: [0, 14]
+  type: discrete
+Call Type:
+  bins: 32
+  domain: [0, 31]
+  type: discrete
+Call Type Group:
+  bins: 5
+  domain: [0, 4]
+  type: discrete
+City:
+  bins: 9
+  domain: [0, 8]
+  type: discrete
+Dispatch DtTm:
+  bins: 100
+  domain: [1451603006, 1483311791]
+  type: discrete
+Entry DtTm:
+  bins: 100
+  domain: [1451602962, 1483311743]
+  type: discrete
+Final Priority:
+  bins: 2
+  domain: [0, 1]
+  type: discrete
+Fire Prevention District:
+  bins: 11
+  domain: [0, 10]
+  type: discrete
+Hospital DtTm:
+  bins: 100
+  domain: [1451604963, 1483314738]
+  optional: true
+  type: discrete
+Location - Lat:
+  bins: 100
+  domain: [37.6168823239251, 37.8544643401172]
+  type: discrete
+Location - Lng:
+  bins: 100
+  domain: [-122.513648358854, -122.332574620522]
+  type: discrete
+Neighborhooods - Analysis Boundaries:
+  bins: 42
+  domain: [0, 41]
+  type: discrete
+Number of Alarms:
+  bins: 100
+  domain: [1, 5]
+  type: discrete
+On Scene DtTm:
+  bins: 100
+  domain: [1451603285, 1483311990]
+  optional: true
+  type: discrete
+Original Priority:
+  bins: 8
+  domain: [0, 7]
+  type: discrete
+Priority:
+  bins: 8
+  domain: [0, 7]
+  type: discrete
+Received DtTm:
+  bins: 100
+  domain: [1451602843, 1483311589]
+  type: discrete
+Response DtTm:
+  bins: 100
+  domain: [1451603122, 1483311883]
+  optional: true
+  type: discrete
+Station Area:
+  bins: 46
+  domain: [0, 45]
+  type: discrete
+Supervisor District:
+  bins: 12
+  domain: [0, 11]
+  type: discrete
+Transport DtTm:
+  bins: 100
+  domain: [1451604148, 1483312891]
+  optional: true
+  type: discrete
+Unit ID:
+  bins: 742
+  domain: [0, 741]
+  type: discrete
+Unit Type:
+  bins: 10
+  domain: [0, 9]
+  type: discrete
+Unit sequence in call dispatch:
+  bins: 100
+  domain: [1, 83]
+  type: discrete
+Watch Date:
+  bins: 100
+  domain: [1451516400, 1483225200]
+  type: discrete
+Zipcode of Incident:
+  bins: 28
+  domain: [0, 27]
+  type: discrete

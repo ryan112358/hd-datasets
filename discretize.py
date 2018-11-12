@@ -21,12 +21,12 @@ def process(path, config):
             categories = list(info['value_map'].keys())
             dtype = CategoricalDtype(categories, ordered=True)
             df[col] = df[col].astype(dtype)
-    cols = list(config)
+    cols = [c for c in df.columns if c in config]
     discrete = df[cols].apply(lambda c: c.cat.codes)
     for col in cols:
         info = config[col]
         if 'optional' in info and info['optional']: # give missing data special value
-            discrete[col] = discrete.replace(-1, domain[col])
+            discrete[col] = discrete[col].replace(-1, domain[col])
             domain[col] += 1
         else: # remove missing data
             discrete = discrete[discrete[col] != -1]

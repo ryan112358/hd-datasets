@@ -1,0 +1,64 @@
+site_0:
+  bins: 18
+  domain: [0, 17]
+  type: discrete
+site_1:
+  bins: 18
+  domain: [0, 17]
+  type: discrete
+site_10:
+  bins: 18
+  domain: [0, 17]
+  type: discrete
+site_11:
+  bins: 18
+  domain: [0, 17]
+  type: discrete
+site_12:
+  bins: 18
+  domain: [0, 17]
+  type: discrete
+site_13:
+  bins: 18
+  domain: [0, 17]
+  type: discrete
+site_14:
+  bins: 18
+  domain: [0, 17]
+  type: discrete
+site_15:
+  bins: 18
+  domain: [0, 17]
+  type: discrete
+site_2:
+  bins: 18
+  domain: [0, 17]
+  type: discrete
+site_3:
+  bins: 18
+  domain: [0, 17]
+  type: discrete
+site_4:
+  bins: 18
+  domain: [0, 17]
+  type: discrete
+site_5:
+  bins: 18
+  domain: [0, 17]
+  type: discrete
+site_6:
+  bins: 18
+  domain: [0, 17]
+  type: discrete
+site_7:
+  bins: 18
+  domain: [0, 17]
+  type: discrete
+site_8:
+  bins: 18
+  domain: [0, 17]
+  type: discrete
+site_9:
+  bins: 18
+  domain: [0, 17]
+  type: discrete

@@ -36,27 +36,6 @@ fnlwgt:
     type: discrete
     bins: 100
     domain: [10000, 1500000]
-education: 
-    type: categorical
-    bins: 16
-    domain: [0,15]
-    value_map:
-        Bachelors: 0 
-        Some-college: 1 
-        11th: 2
-        HS-grad: 3
-        Prof-school: 4
-        Assoc-acdm: 5
-        Assoc-voc: 6
-        9th: 7
-        7th-8th: 8
-        12th: 9
-        Masters: 10
-        1st-4th: 11
-        10th: 12
-        Doctorate: 13
-        5th-6th: 14
-        Preschool: 15
 education-num: 
     type: discrete
     bins: 16

@@ -44,7 +44,7 @@ Parch:
     domain: [0,6]
 Fare:
     type: discrete
-    bins: 100
+    bins: 32
     domain: [0, 550]
 Embarked:
     type: categorical

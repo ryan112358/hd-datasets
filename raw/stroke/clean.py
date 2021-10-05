@@ -20,11 +20,11 @@ for col in data:
     if dtype == int:
         curr['type'] = 'discrete'
         curr['domain'] = [int(d.min()), int(d.max())]
-        curr['bins'] = int(min(100, d.max() - d.min() + 1))
+        curr['bins'] = int(min(32, d.max() - d.min() + 1))
     if dtype == float:
         curr['type'] = 'discrete'
         curr['domain'] = [float(d.min()), float(d.max())]
-        curr['bins'] = 100
+        curr['bins'] = 32
     if dtype == object:
         print(col)
         curr['type'] = 'categorical'

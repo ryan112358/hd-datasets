@@ -1,6 +1,6 @@
 annual-salary:
     type: discrete
-    bins: 100
+    bins: 32
     optional: True
     domain: [0, 500000]
 pay-rate:
@@ -21,23 +21,23 @@ system:
         UM: 2
 regular-earnings:
     type: discrete
-    bins: 100
+    bins: 32
     optional: True
     domain: [0,500000]
 overtime-earning:
     type: discrete
     optional: True
-    bins: 100
+    bins: 32
     domain: [0,500000]
 other-earnings:
     type: discrete
     optional: True
-    bins: 100
+    bins: 32
     domain: [0,500000]
 ytd-gross:
     type: discrete
     optional: True
-    bins: 100
+    bins: 32
     domain: [0,500000]
 organization-name:
     type: categorical

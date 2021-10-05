@@ -86,7 +86,7 @@ out = open('config.yml', 'w')
 for col in data:
     dtype = data[col].dtype
     if dtype == float:
-        b = bins[col] if col in bins else 100
+        b = bins[col] if col in bins else 32
         curr = { 'type' : 'discrete', 
                  'bins' : b, 
                  'optional' : True,

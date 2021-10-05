@@ -20,7 +20,7 @@ def process(path, config):
         if info['type'] == 'categorical':
             categories = list(info['value_map'].keys())
             dtype = CategoricalDtype(categories, ordered=True)
-            df[col] = df[col].astype(dtype)
+            df[col] = df[col].astype(str).astype(dtype)
     cols = [c for c in df.columns if c in config]
     discrete = df[cols].apply(lambda c: c.cat.codes)
     for col in cols:

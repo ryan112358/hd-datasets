@@ -14,9 +14,30 @@
 # value_map (optional) - A dictionary that maps non-numerical
 #                       field values to a number so that they can be
 #                       properly added to a histogram.
+education:
+    type: categorical
+    bins: 16
+    domain: [0,15]
+    value_map:
+        10th: 0
+        11th: 1
+        12th: 2
+        1st-4th: 3
+        5th-6th: 4
+        7th-8th: 5
+        9th: 6
+        Assoc-acdm: 7
+        Assoc-voc: 8
+        Bachelors: 9
+        Doctorate: 10
+        HS-grad: 11
+        Masters: 12
+        Preschool: 13
+        Prof-school: 14
+        Some-college: 15
 age: 
     type: discrete
-    bins: 85
+    bins: 32
     domain: [16,100]
 workclass: 
     type: categorical
@@ -34,7 +55,7 @@ workclass:
         ?: 8
 fnlwgt: 
     type: discrete
-    bins: 100
+    bins: 32
     domain: [10000, 1500000]
 education-num: 
     type: discrete
@@ -101,16 +122,16 @@ sex:
         Female: 0
         Male: 1
 capital-gain:
-    bins: 100
+    bins: 32
     domain: [0,100000]
     type: discrete
 capital-loss:
     type: discrete
-    bins: 100
+    bins: 32
     domain: [0,5000]
 hours-per-week:
     type: discrete
-    bins: 99
+    bins: 32
     domain: [1,99]
 native-country:
     type: categorical
